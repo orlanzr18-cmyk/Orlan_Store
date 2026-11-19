@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    tools:context=".HistoriaActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historia"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="307dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@mipmap/tenda" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="336dp"
+        android:layout_height="184dp"
+        android:text="Jetstereo fue fundada en Honduras en 1967 por el empresario Emin Abufele, iniciando como una pequeña tienda en San Pedro Sula dedicada a la venta de discos de vinilo y equipos de sonido bajo el nombre de Supermercados del Sonido. Con el paso de las décadas, la empresa evolucionó junto con la tecnología, ampliando su catálogo hacia electrodomésticos, línea blanca, computación, telefonía móvil y entretenimiento digital. Hoy en día, forma parte de Grupo Inversiones La Paz (ILP) y se ha consolidado como la cadena líder en innovación tecnológica y retail especializado en Honduras, destacando por su presencia nacional y su enfoque en asesoría personalizada y servicio técnico."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <Button
+        android:id="@+id/btnregresar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="regresar"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+</androidx.constraintlayout.widget.ConstraintLayout>
